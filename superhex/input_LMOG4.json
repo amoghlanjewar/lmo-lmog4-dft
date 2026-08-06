@@ -1,0 +1,13 @@
+{
+    "structure_file": "LMXG4.vasp",
+    "LatDim": 3,
+    "range_volume": true,
+    "volumes": [1, 16],
+    "magnetic_atoms": ["Mo", "Gd", "W"],
+    "cutoff_radius": 25,
+    "n_configs": 200,
+    "all_configs": false,
+    "verbosity": "high",
+    "seed": 42,
+    "num_processes": 35
+}
