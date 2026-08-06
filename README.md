@@ -44,27 +44,6 @@ repo/
         └── LMOG4_cell-vol4-num9.vasp
 ```
 
----
-
-## What to upload here
-
-| Category | Files | Notes |
-|---|---|---|
-| **DFT inputs** | `LMX.in` → rename `LMO.in`; `LMXG4.in` → rename `LMOG4.in` | Full QE `&CONTROL/&SYSTEM/&ELECTRONS` blocks, atomic positions, k-points, Hubbard U on Gd-4f |
-| **Structure files** | `LMX.vasp`, `LMXG4.vasp` | Referenced by the SuperHEX `input.txt` files |
-| **SuperHEX configuration** | the two `input.txt`-style JSON files you pasted (rename e.g. `input_LMO.json`, `input_LMOG4.json`) | Contains `volumes`, `magnetic_atoms`, `cutoff_radius`, `n_configs`, etc. |
-| **SuperHEX output** | `struct_analysis.csv` (one per material), `log.txt` (optional — can be large) | Needed so readers can reproduce the choice of `cell-vol4-num9` |
-| **Selected supercell** | the specific `cell-vol4-num9.vasp` file used for the reported exchange/PDOS calculations | This is the actual structure the paper's results are based on |
-| **Analysis notebook** | `DOS.ipynb` | Contains all three analysis passes (DOS/PDOS plotting, physics engine, band-gap engine) — keep as-is; it is self-documenting |
-| **Analysis reports** | `analysis_report.txt`, `physics.txt` | Auto-generated text reports referenced by the manuscript's Results section |
-| **Figures** | `LMX_Normal1.tif`, `LMX_Supercell.tif`, `LMXG4_Normal1.tif`, `LMXG4_Supercell1.tif`, `FIG2_LMO_PDOS_Stacked.png`, `FIG2_LMOG4_PDOS_Stacked.png`, `FIG7_LMO_Heatmap.png`, `FIG7_LMOG4_Heatmap.png` | Rename with `LMO`/`LMOG4` prefixes for consistency with the manuscript |
-| **Manuscript source** | the `.tex` section files and the corresponding `.bib` file(s) | So the paper is fully reproducible from source |
-
-**Do not upload** copyrighted third-party material as-is (e.g. `PhysRevB_111_144419.pdf`) —
-cite it in `references.bib` instead and link to the publisher's page/DOI.
-
----
-
 ## Reproducing the supercell selection
 
 1. Run SuperHEX with the provided `input_LMO.json` / `input_LMOG4.json` against the
