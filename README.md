@@ -58,5 +58,6 @@ repo/
 
 ## Contact
 
-Amogh U. Lanjewar, Smita Acharya — Advanced Materials Research Laboratory,
-Department of Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.
+Amogh U. Lanjewar
+Email: amoghlanjewar@gmail.com
+Advanced Materials Research Laboratory, Department of Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.
