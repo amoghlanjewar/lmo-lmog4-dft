@@ -56,8 +56,12 @@ repo/
    LMOG4.
 
 
-## Contact
+##  Contact
 
-Amogh U. Lanjewar
-Email: amoghlanjewar@gmail.com
-Advanced Materials Research Laboratory, Department of Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.
+**Amogh U. Lanjewar**  
+Project Fellow, Advanced Materials Research Laboratory (AMRL)  
+Department of Physics  
+Rashtrasant Tukadoji Maharaj Nagpur University  
+Nagpur, Maharashtra, India  
+
+ **Email:** amoghlanjewar@gmail.com
