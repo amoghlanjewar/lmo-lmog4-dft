@@ -77,30 +77,12 @@ cite it in `references.bib` instead and link to the publisher's page/DOI.
 4. This study selected **`cell-vol4-num9`** as the working supercell for both LMO and
    LMOG4.
 
-## Reproducing the DOS/PDOS analysis
-
-Open `DOS.ipynb` in the `dos_pdos_analysis/` folder. It expects `LMO.dos`,
-`LMOG4.dos`, `LMO.pdos_tot`, `LMOG4.pdos_tot`, and the per-orbital
-`*.pdos_atm#*` files (from Quantum ESPRESSO's `dos.x`/`projwfc.x`) to be present in
-the working directory. Running all cells regenerates every figure and both text
-reports referenced in the manuscript.
-
-## Requirements
-
-- Quantum ESPRESSO (tested with the pseudopotentials listed in `LMO.in` / `LMOG4.in`)
-- [SuperHEX](https://superhex.readthedocs.io/en/latest/) for magnetic supercell enumeration
-- Python ≥ 3.10 with `numpy`, `pandas`, `scipy`, `matplotlib` for the analysis notebook
-
 ## Citation
 
 If you use this data or code, please cite the associated manuscript (see
 `manuscript/references.bib` for the BibTeX entry once the paper is published/posted
 on arXiv).
 
-## License
-
-Add a license (e.g. MIT for code/scripts, CC-BY-4.0 for data/figures) appropriate to
-your institution's policy before making the repository public.
 
 ## Contact
 
