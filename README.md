@@ -35,38 +35,13 @@ repo/
 │   └── pseudopotentials/           # (or a note on where to obtain them, if not redistributable)
 │
 ├── superhex/
-│   ├── input_LMO.json              # SuperHEX config for LMO (volumes 1–16, Mo magnetic)
-│   ├── input_LMOG4.json            # SuperHEX config for LMOG4
-│   ├── struct_analysis_LMO.csv     # SuperHEX supercell ranking output
-│   ├── struct_analysis_LMOG4.csv
-│   └── selected_supercells/
-│       ├── LMO_cell-vol4-num9.vasp     # Supercell chosen for this study
-│       └── LMOG4_cell-vol4-num9.vasp
-│
-├── dos_pdos_analysis/
-│   ├── DOS.ipynb                   # Jupyter notebook: DOS/PDOS plotting + physics analysis
-│   ├── analysis_report.txt         # Auto-generated DOS/PDOS summary report
-│   └── physics.txt                 # Auto-generated comprehensive physics report
-│
-├── figures/
-│   ├── LMO_Normal1.tif              # Unit cell visualization (was LMX_Normal1.tif)
-│   ├── LMO_Supercell.tif            # Supercell visualization (was LMX_Supercell.tif)
-│   ├── LMOG4_Normal1.tif            # (was LMXG4_Normal1.tif)
-│   ├── LMOG4_Supercell1.tif         # (was LMXG4_Supercell1.tif)
-│   ├── FIG2_LMO_PDOS_Stacked.png    # Orbital-resolved PDOS, LMO
-│   ├── FIG2_LMOG4_PDOS_Stacked.png  # Orbital-resolved PDOS, LMOG4
-│   ├── FIG7_LMO_Heatmap.png         # PDOS intensity heatmap, LMO
-│   └── FIG7_LMOG4_Heatmap.png       # PDOS intensity heatmap, LMOG4
-│
-└── manuscript/
-    ├── main.tex                    # Top-level LaTeX source (\input{} the section files)
-    ├── introduction.tex
-    ├── method.tex
-    ├── results.tex
-    ├── conclusions.tex
-    ├── acknowledgement.tex
-    ├── data_availability.tex
-    └── references.bib
+    ├── input_LMO.json              # SuperHEX config for LMO (volumes 1–16, Mo magnetic)
+    ├── input_LMOG4.json            # SuperHEX config for LMOG4
+    ├── struct_analysis_LMO.csv     # SuperHEX supercell ranking output
+    ├── struct_analysis_LMOG4.csv
+    └── selected_supercells/
+        ├── LMO_cell-vol4-num9.vasp     # Supercell chosen for this study
+        └── LMOG4_cell-vol4-num9.vasp
 ```
 
 ---
