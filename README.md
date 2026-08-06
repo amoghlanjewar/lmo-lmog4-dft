@@ -5,7 +5,7 @@ figures accompanying the manuscript:
 
 > **Atomistic Insights into the Role of Gd/W Co-doping on the Electronic Structure and
 > Phase Stability of La₂Mo₂O₉: A First-Principles Supercell Investigation**
-> A. U. Lanjewar, S. Acharya — Advanced Materials Research Laboratory, Department of
+> A. U. Lanjewar, S. Acharya from Advanced Materials Research Laboratory, Department of
 > Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.
 
 The study compares the parent oxide **LMO** (La₂Mo₂O₉) with the Gd/W co-doped derivative
@@ -25,7 +25,6 @@ and magnetic-supercell generation via **SuperHEX**.
 ```
 repo/
 ├── README.md
-├── LICENSE
 │
 ├── dft_inputs/
 │   ├── LMO.in                      # Quantum ESPRESSO SCF input (was LMX.in)
@@ -56,14 +55,8 @@ repo/
 4. This study selected **`cell-vol4-num9`** as the working supercell for both LMO and
    LMOG4.
 
-## Citation
-
-If you use this data or code, please cite the associated manuscript (see
-`manuscript/references.bib` for the BibTeX entry once the paper is published/posted
-on arXiv).
-
 
 ## Contact
 
 Amogh U. Lanjewar, Smita Acharya — Advanced Materials Research Laboratory,
-Department of Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.# La2Mo2O9
+Department of Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.
