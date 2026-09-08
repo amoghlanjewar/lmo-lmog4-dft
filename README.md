@@ -1,22 +1,3 @@
-# La₂Mo₂O₉ (LMO) and La₁.₆Gd₀.₄Mo₁.₇W₀.₃O₉ (LMOG4): DFT Electronic Structure & Supercell Data
-
-This repository contains the input files, raw output data, analysis notebooks, and
-figures accompanying the manuscript:
-
-> **Atomistic Insights into the Role of Gd/W Co-doping on the Electronic Structure and
-> Phase Stability of La₂Mo₂O₉: A First-Principles Supercell Investigation**
-> A. U. Lanjewar, S. Acharya from Advanced Materials Research Laboratory, Department of
-> Physics, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, India.
-
-The study compares the parent oxide **LMO** (La₂Mo₂O₉) with the Gd/W co-doped derivative
-**LMOG4** (La₁.₆Gd₀.₄Mo₁.₇W₀.₃O₉) using DFT (Quantum ESPRESSO, PBE-GGA, spin-polarised)
-and magnetic-supercell generation via **SuperHEX**.
-
-> **Note on naming:** Some files in this repository were generated with the working
-> labels `LMX`/`LMXG4`. These refer to the *same materials* as `LMO`/`LMOG4` used
-> throughout the manuscript. We recommend renaming files to the `LMO`/`LMOG4`
-> convention before archiving (see suggested structure below) to avoid confusion for
-> readers.
 
 ---
 
