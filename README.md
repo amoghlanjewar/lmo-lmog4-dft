@@ -1,7 +1,7 @@
 
 ---
 
-## Repository structure (suggested)
+## Repository structure
 
 ```
 repo/
